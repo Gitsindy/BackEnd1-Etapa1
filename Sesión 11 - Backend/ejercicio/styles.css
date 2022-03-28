@@ -1,0 +1,41 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.cards {
+    border: 1px solid salmon;
+    border-radius: 4%;
+}
+
+img {
+    width: 250px;
+    height: 350px;
+    border-radius: 4% 4% 0 0;
+}
+
+.datos{
+    text-align: center;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.nombre {
+    font-size: 24px;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: lightblue;
+}
